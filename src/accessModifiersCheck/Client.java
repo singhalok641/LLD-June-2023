@@ -7,6 +7,5 @@ public class Client {
         Student student = new Student();
         student.universityName = "Vector";
 
-        Studen
     }
 }
