@@ -18,7 +18,17 @@ public class Client {
         }
     }
     public static void main(String[] args) {
-        A a = doSomething();
+        A a = new B();
+        B b = new B();
+        b.doSomething("b");
         a.doSomething("a");
+    }
+
+    public void main(){
+        System.out.println("Hello");
+    }
+
+    public String main(String name){
+        return name;
     }
 }

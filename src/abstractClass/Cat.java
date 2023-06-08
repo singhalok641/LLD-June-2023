@@ -12,3 +12,25 @@ abstract public class Cat extends Animal{
         System.out.println("Cat is eating");
     }
 }
+
+/*
+*
+*
+* Cat c = new Animal();
+*
+* c.meow(); -> Wrong
+*
+*
+*  c = new Cat();
+* a.meow() -> Wrong
+*
+*
+*
+* User u = getUser();
+*
+* u.login();
+*
+*
+* Student st = new Student();
+* TA ta = new TA();
+* */
