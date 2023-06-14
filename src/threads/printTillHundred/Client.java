@@ -6,6 +6,7 @@ public class Client {
             NumberPrinter numberPrinter = new NumberPrinter(i);
             Thread t = new Thread(numberPrinter);
             t.start();
+//            t.run();
         }
     }
 }
