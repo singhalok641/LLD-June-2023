@@ -14,6 +14,7 @@ public class Client {
         HelloWorldPrinter helloWorldPrinter = new HelloWorldPrinter();
         Thread thread = new Thread(helloWorldPrinter);
         thread.start();
+//        thread.run();
 
         // Write code to print numbers from 1 to 100
 
