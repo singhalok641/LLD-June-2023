@@ -1,12 +1,12 @@
 package Synchronization.AdderSubtractorThirdParty;
 
 public class Count {
-    private int value = 0;
-    public synchronized void incrementValue(int offset){
+    private static int value = 0;
+    public static synchronized void incrementValue(int offset){
         value += offset;
     }
 
-    public int getValue(){
-        return this.value;
+    public synchronized int getValue(){
+        return value;
     }
 }
