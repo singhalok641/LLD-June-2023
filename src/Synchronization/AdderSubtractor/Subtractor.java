@@ -3,6 +3,7 @@ package Synchronization.AdderSubtractor;
 public class Subtractor implements Runnable{
 
     private Count count;
+    Integer a;
 
     public Subtractor(Count count){
         this.count = count;
